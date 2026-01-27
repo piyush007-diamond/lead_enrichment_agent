@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Temporary/intermediate files
+.tmp/
+
+# Google OAuth credentials
+credentials.json
+token.json
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

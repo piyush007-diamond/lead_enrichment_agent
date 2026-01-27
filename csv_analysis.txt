@@ -1,0 +1,61 @@
+Reading from: C:\Users\Piyush\Downloads\google.csv
+
+Total rows (including header): 457
+
+=== First 5 rows (raw) ===
+Row 0: ['OSrXXb', 'rllt__details', 'yi40Hd', 'RDApEe', 'rllt__details 2', 'BI0Dve', 'wA1Bge src', 'uDyWh']
+Row 1: ['Arizona Biltmore Dentistry', '· Dentist', '4.7', '(1.3K)', 'Phoenix, AZ, United States', 'On-site services', 'https://lh3.googleusercontent.com/p/AF1QipOWTyMTjVywtTwLZnsl1uTu6g0k1NAXh8d_A_fq=w115-h115-n-k-no', '']
+Row 2: ['AZ Cosmetic & Family Dentistry: Dentist in Peoria', '· Dentist', '4.9', '(1.5K)', 'Peoria, AZ, United States', '', 'https://lh3.googleusercontent.com/p/AF1QipPZD0yGa9UYL9Zowx81vXNUh7__8wP5F4wVnq6E=w115-h115-n-k-no', '"They did a great job of explaining my visit details to improve my teeth."']
+Row 3: ['Life Smiles Dental Care', '· Dentist', '5.0', '(1.7K)', 'Phoenix, AZ, United States', 'On-site services', 'https://lh3.googleusercontent.com/p/AF1QipMAv5CywaUr8zo3gd2pDEYaaYIimhdEYL6ogw2I=w115-h115-n-k-no', '']
+Row 4: ['Dentistry of Arizona - Surprise', '· Dentist', '4.9', '(286)', 'Surprise, AZ, United States', '', 'https://lh3.googleusercontent.com/p/AF1QipNRpiyOB6rrKjw9FsA19mZtAjhKSZaQNqPKb6wC=w115-h115-n-k-no', '"They were able to do see what was causing my tooth sensitivity."']
+
+=== Column Analysis ===
+Number of columns: 8
+  Column 0: 'OSrXXb'
+    Row 1: Arizona Biltmore Dentistry
+    Row 2: AZ Cosmetic & Family Dentistry: Dentist in Peoria
+    Row 3: Life Smiles Dental Care
+    Row 4: Dentistry of Arizona - Surprise
+    Row 5: Arizona Family Dental
+  Column 1: 'rllt__details'
+    Row 1: · Dentist
+    Row 2: · Dentist
+    Row 3: · Dentist
+    Row 4: · Dentist
+    Row 5: · Dentist
+  Column 2: 'yi40Hd'
+    Row 1: 4.7
+    Row 2: 4.9
+    Row 3: 5.0
+    Row 4: 4.9
+    Row 5: 4.9
+  Column 3: 'RDApEe'
+    Row 1: (1.3K)
+    Row 2: (1.5K)
+    Row 3: (1.7K)
+    Row 4: (286)
+    Row 5: (509)
+  Column 4: 'rllt__details 2'
+    Row 1: Phoenix, AZ, United States
+    Row 2: Peoria, AZ, United States
+    Row 3: Phoenix, AZ, United States
+    Row 4: Surprise, AZ, United States
+    Row 5: Chandler, AZ, United States
+  Column 5: 'BI0Dve'
+    Row 1: On-site services
+    Row 2: 
+    Row 3: On-site services
+    Row 4: 
+    Row 5: 
+  Column 6: 'wA1Bge src'
+    Row 1: https://lh3.googleusercontent.com/p/AF1QipOWTyMTjVywtTwLZnsl1uTu6g0k1NAXh8d_A_fq=w115-h115-n-k-no
+    Row 2: https://lh3.googleusercontent.com/p/AF1QipPZD0yGa9UYL9Zowx81vXNUh7__8wP5F4wVnq6E=w115-h115-n-k-no
+    Row 3: https://lh3.googleusercontent.com/p/AF1QipMAv5CywaUr8zo3gd2pDEYaaYIimhdEYL6ogw2I=w115-h115-n-k-no
+    Row 4: https://lh3.googleusercontent.com/p/AF1QipNRpiyOB6rrKjw9FsA19mZtAjhKSZaQNqPKb6wC=w115-h115-n-k-no
+    Row 5: https://lh3.googleusercontent.com/p/AF1QipMLWdFXkEmHSN72G1pLTcZCnqR-lWhx7bxmlKOM=w115-h115-n-k-no
+  Column 7: 'uDyWh'
+    Row 1: 
+    Row 2: "They did a great job of explaining my visit details to improve my teeth."
+    Row 3: 
+    Row 4: "They were able to do see what was causing my tooth sensitivity."
+    Row 5: "Dental Hygienist Sue was so kind, caring, professional and thorough."

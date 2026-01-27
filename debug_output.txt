@@ -1,0 +1,20 @@
+Reading: C:\Users\Piyush\Downloads\lead enreaching agent\leads_HVAC_Arizona.csv
+Raw Fieldnames: ['Business Name', 'Website', 'Description', 'Email', 'Phone', 'Scrape Status', 'Error Detail']
+Stripped Fieldnames: ['Business Name', 'Website', 'Description', 'Email', 'Phone', 'Scrape Status', 'Error Detail']
+
+First 5 rows:
+Row 1: {'Business Name': 'Heating & Air Conditioning Company | Arizona | HVAC Company', 'Website': 'https://acofaz.net/', 'Description': 'From diagnostic check-ups to replacements, if it’s broken we can fix it. Air Conditioning of Arizona specializes in both residential and commercial installations and servicing with low, competitive pricing.', 'Email': '', 'Phone': '(480) 250-3882', 'Scrape Status': 'Success', 'Error Detail': ''}
+Business Name (raw lookup): 'Heating & Air Conditioning Company | Arizona | HVAC Company'
+Business Name (stripped lookup): 'Heating & Air Conditioning Company | Arizona | HVAC Company'
+Row 2: {'Business Name': 'Top 22 HVAC Companies In Arizona', 'Website': 'https://www.inven.ai/company-lists/top-22-hvac-companies-in-arizona', 'Description': 'Discover the best HVAC companies in Arizona like George Brazil and Howard Air , delivering essential heating and cooling services to the community.', 'Email': '', 'Phone': '201-5001993, 001-5000197, 001-5000200', 'Scrape Status': 'Success', 'Error Detail': ''}
+Business Name (raw lookup): 'Top 22 HVAC Companies In Arizona'
+Business Name (stripped lookup): 'Top 22 HVAC Companies In Arizona'
+Row 3: {'Business Name': '15 Best Commercial HVAC Contractors Phoenix, AZ', 'Website': 'https://downtobid.com/contractors/hvac/phoenix', 'Description': 'Clear Air Conditioning & Heating is a certified Trane Comfort Specialist providing residential and commercial HVAC services, including repair, maintenance, and installation, as well as indoor air quality solutions in Arizona.', 'Email': 'hello@downtobid.comTerms, bids@downtobid.com', 'Phone': '', 'Scrape Status': 'Success', 'Error Detail': ''}
+Business Name (raw lookup): '15 Best Commercial HVAC Contractors Phoenix, AZ'
+Business Name (stripped lookup): '15 Best Commercial HVAC Contractors Phoenix, AZ'
+Row 4: {'Business Name': 'Arizona HVAC Company Directory', 'Website': 'https://www.hvacinformed.com/companies/arizona-hvac-companies/directory.html', 'Description': "Arizona's Dukes of Air are the local experts in Residential and Commercial AC Repair, HVAC and Plumbing throughout Mesa and Gilbert, in Arizona, and the East ...", 'Email': '', 'Phone': '', 'Scrape Status': 'Success', 'Error Detail': ''}
+Business Name (raw lookup): 'Arizona HVAC Company Directory'
+Business Name (stripped lookup): 'Arizona HVAC Company Directory'
+Row 5: {'Business Name': 'Parker & Sons – Air Conditioning Phoenix - HVAC, Plumbing & Electrical', 'Website': 'https://www.parkerandsons.com/', 'Description': 'For nearly 50 years, Parker & Sons has been helping Arizona homeowners stay comfortable, with honest, expert service in HVAC, plumbing, electrical, and more.', 'Email': '', 'Phone': '(602) 344-9027', 'Scrape Status': 'Success', 'Error Detail': ''}
+Business Name (raw lookup): 'Parker & Sons – Air Conditioning Phoenix - HVAC, Plumbing & Electrical'
+Business Name (stripped lookup): 'Parker & Sons – Air Conditioning Phoenix - HVAC, Plumbing & Electrical'

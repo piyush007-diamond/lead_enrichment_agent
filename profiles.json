@@ -1,0 +1,86 @@
+{
+  "dentist": {
+    "keyword": "dentist",
+    "input_file": "google.csv",
+    "output_file": "dentist_leads_enriched.csv",
+    "filter_min_reviews": 100,
+    "filter_max_reviews": 500,
+    "contact_title_pattern": "Dr\\.?[\\s]+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)",
+    "priority_keywords": [
+      "on-site"
+    ]
+  },
+  "hvac": {
+    "keyword": "hvac",
+    "input_file": "leads_HVAC_Arizona.csv",
+    "output_file": "leads_HVAC_Arizona_enriched.csv",
+    "filter_min_reviews": 50,
+    "filter_max_reviews": 1000,
+    "contact_title_pattern": "(?:Technician|Manager|Owner)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)",
+    "priority_keywords": [
+      "emergency",
+      "24/7",
+      "repair"
+    ],
+    "columns": {
+      "name": "Business Name",
+      "location": "Address",
+      "rating": "Rating",
+      "reviews": "Review Count",
+      "services": "Description"
+    }
+  },
+  "smart_hvac": {
+    "keyword": "hvac",
+    "input_file": "smart_leads_HVAC_Arizona.csv",
+    "output_file": "smart_leads_HVAC_Arizona_enriched.csv",
+    "filter_min_reviews": 10,
+    "filter_max_reviews": 5000,
+    "contact_title_pattern": "(?:Technician|Manager|Owner)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)",
+    "priority_keywords": [
+      "emergency",
+      "24/7",
+      "repair"
+    ],
+    "columns": {
+      "name": "business_name",
+      "location": "source_query",
+      "rating": "lead_score",
+      "reviews": "lead_score",
+      "services": "validation_signals"
+    }
+  },
+  "hvac_ohio": {
+    "keyword": "hvac",
+    "input_file": "smart_leads_HVAC_Ohio.csv",
+    "output_file": "smart_leads_HVAC_Ohio_enriched.csv",
+    "filter_min_reviews": 10,
+    "filter_max_reviews": 5000,
+    "contact_title_pattern": "(?:Technician|Manager|Owner)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)",
+    "priority_keywords": [
+      "emergency",
+      "24/7",
+      "repair"
+    ],
+    "columns": {
+      "name": "business_name",
+      "location": "source_query",
+      "rating": "lead_score",
+      "reviews": "lead_score",
+      "services": "validation_signals"
+    }
+  },
+  "retailers": {
+    "keyword": "retail",
+    "input_file": "retailers.csv",
+    "output_file": "retailers_leads_enriched.csv",
+    "filter_min_reviews": 10,
+    "filter_max_reviews": 10000,
+    "contact_title_pattern": "(?:Manager|Owner|Store Manager)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)",
+    "priority_keywords": [
+      "sale",
+      "discount",
+      "shop"
+    ]
+  }
+}
