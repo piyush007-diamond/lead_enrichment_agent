@@ -3,10 +3,27 @@
 
 # Temporary/intermediate files
 .tmp/
+.temp/
 
-# Google OAuth credentials
+# Google OAuth/Credentials
 credentials.json
 token.json
+token.pickle
+*.pickle
+
+# Logs and debug output
+*.log
+webhook_log.txt
+debug_output.txt
+*.txt
+
+# Data files
+*.csv
+*.xlsx
+*.json
+!vapi_tools_config.json
+!package.json
+!composer.json
 
 # Python bytecode
 __pycache__/
